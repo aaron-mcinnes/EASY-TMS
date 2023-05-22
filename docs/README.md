@@ -15,8 +15,8 @@ The home screen, as shown below, has two different options.
 ![Home Screen](docs/homePage.png)
 
 
-
-## Option 1. Create New Study Protocol
+## Configuring a Protocol
+### Option 1. Create New Study Protocol
 If the Create New Study Protocol button is pressed. The Experimental Automator Panel will appear. Choose this option to create a new study protocol from scratch. The Experimental Automator Panel is the screen shown below. 
 
 ![Experiment Automator Panel](docs/newProtocol.png)
@@ -38,10 +38,10 @@ As seen above, there are a few options in the above screen. Below is a list of a
 11. Save Current Automation to Excel: Saves the current protocol data to an excel sheet with the file name chosen. Saves to the folder the app data is saved within.
 12. Home: The home button, which is on all screens, takes the app back to the initial home screen.
 
-## Option 2. Load Study Protocol
+### Option 2. Load Study Protocol
 The Load Study Protocol will lead to a pop-up screen. Choose this option to load a previously created protocol. The pop-up screen will have two options. The options are 2a. Edit Existing Protocol or 2b. Run Existing Protocol. 
 
-### Option 2a. Edit Existing Protocol
+#### Option 2a. Edit Existing Protocol
 This option will lead you to an edit screen similar to the Experimental Automator Panel. A file selector will also appear to choose the file with the protocol you want to edit. The same options will be available as the automotor panel except the data will only be available in table view. Most data in the table can be edited by clicking the cell and typing as well. The updated protocol can be saved to the same file, or a copy can be created.
 
 It is important to note that as shown below, when selecting the file, to choose all files to see excel files as well as MATLAB files. 
@@ -51,7 +51,7 @@ It is important to note that as shown below, when selecting the file, to choose 
 
 
 
-### Option 2b. Run Existing Protocol
+#### Option 2b. Run Existing Protocol
 If the Run Existing Protocol is chosen, the first window that will appear is a guided connection page to connect to the TMS stimulator. 
 
 ![Connect to Stimulator](docs/connectStimulator.png)
@@ -64,6 +64,8 @@ If the Run Existing Protocol is chosen, the first window that will appear is a g
 4. Connection Status: Shows if the stimulator is connected or not.
 5. Connect to Simulator: Connects the computer to the stimulator. If successful, the connection status will say connected before the next screen appears.
 
+
+## Running a Protocol
 
 The next screen that will appear is the Determine Motor Threshold screen. 
 
