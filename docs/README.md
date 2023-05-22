@@ -1,18 +1,17 @@
-# EASY-TMS: User Guide
+# EASY-TMS
 **EASY-TMS** (Experiment Automator System for TMS) is a MATLAB GUI for automating complex stimulation sequences.
 The GUI is built using MATLAB's app designer and interfaces with TMS devices using the [MAGIC toolbox](https://github.com/nigelrogasch/MAGIC) 
 
 
 **Authors:** 
-<p>
-Danielle Lundtvedt, lundt011@umn.edu
+Danielle Lundtvedt, lundt011@umn.edu<br>
 Aaron McInnes, mcinn125@umn.edu 
-</p>
-
 
 <p>
-The home screen, as shown below, has two different options. 
 </p>
+# EASY-TMS User Guide
+The home screen, as shown below, has two different options. 
+
 
 ![Home Screen](docs/homePage.png)
 
