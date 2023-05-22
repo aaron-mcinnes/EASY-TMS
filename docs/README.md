@@ -1,9 +1,16 @@
-# EASY-TMS
-Experiment Automator System for TMS
+# EASY-TMS: User Guide
+<p> **EASY-TMS** (Experiment Automator System for TMS) is a MATLAB GUI for automating complex stimulation sequences.<br>
+The GUI is built using MATLAB's app designer and interfaces with TMS devices using the [MAGIC toolbox](https://github.com/nigelrogasch/MAGIC)</p> 
 
-Easy TMS: User Guide
 
+<p> **Authors:** 
+Danielle Lundtvedt, lundt011@umn.edu
+Aaron McInnes, mcinn125@umn.edu </p>
+
+
+<p>
 The home screen, as shown below, has two different options. 
+</p>
 
 ![Home Screen](docs/homePage.png)
 
@@ -34,7 +41,7 @@ As seen above, there are a few options in the above screen. Below is a list of a
 ## Option 2. Load Study Protocol
 The Load Study Protocol will lead to a pop-up screen. Choose this option to load a previously created protocol. The pop-up screen will have two options. The options are 2a. Edit Existing Protocol or 2b. Run Existing Protocol. 
 
-## Option 2a. Edit Existing Protocol
+### Option 2a. Edit Existing Protocol
 This option will lead you to an edit screen similar to the Experimental Automator Panel. A file selector will also appear to choose the file with the protocol you want to edit. The same options will be available as the automotor panel except the data will only be available in table view. Most data in the table can be edited by clicking the cell and typing as well. The updated protocol can be saved to the same file, or a copy can be created.
 
 It is important to note that as shown below, when selecting the file, to choose all files to see excel files as well as MATLAB files. 
@@ -44,7 +51,7 @@ It is important to note that as shown below, when selecting the file, to choose 
 
 
 
-## Option 2b. Run Existing Protocol
+### Option 2b. Run Existing Protocol
 If the Run Existing Protocol is chosen, the first window that will appear is a guided connection page to connect to the TMS stimulator. 
 
 ![Connect to Stimulator](docs/connectStimulator.png)
