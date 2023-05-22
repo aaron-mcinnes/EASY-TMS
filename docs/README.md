@@ -3,13 +3,12 @@
 The GUI is built using MATLAB's app designer and interfaces with TMS devices using the [MAGIC toolbox](https://github.com/nigelrogasch/MAGIC) 
 
 
-**Authors:** 
+**Authors:** <br>
 Danielle Lundtvedt, lundt011@umn.edu<br>
-Aaron McInnes, mcinn125@umn.edu 
+Aaron McInnes, mcinn125@umn.edu<br>
 
-<p>
-</p>
 # EASY-TMS User Guide
+
 The home screen, as shown below, has two different options. 
 
 
