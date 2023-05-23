@@ -7,6 +7,12 @@ The GUI is built using MATLAB's app designer and interfaces with TMS devices usi
 Danielle Lundtvedt, lundt011@umn.edu<br>
 Aaron McInnes, mcinn125@umn.edu<br>
 
+# Installation
+This application can be run as an app within MATLAB (tested on Windows and Mac OSX running MATLAB 2022b), or as a standalone application (Windows only). Navigate to the install folder on your local copy of this repo and choose your preferred installation method.
+EASYTMS.mlappinstall will install EASYTMS within MATLAB. It can be run by navigating to the Apps tab in MATLAB. 
+EASYTMS-standalone-installer will install the app on your machine without requiring a MATLAB installation. If the required MATLAB runtime is not installed on your machine, the installer will download and install the appropriate runtime. 
+
+
 # EASY-TMS User Guide
 
 The home screen, as shown below, has two different options. 
