@@ -68,6 +68,7 @@ If the Run Existing Protocol is chosen, the first window that will appear is a g
 4. Connection Status: Shows if the stimulator is connected or not.
 5. Connect to Simulator: Connects the computer to the stimulator. If successful, the connection status will say connected before the next screen appears.
 
+Communication with TMS stimulators requires serial communication via a serial port. If your computer running EASY-TMS has a serial port, you can simply connect to the stimulator with a serial cable. However, most modern computers do not have a serial port. The same can be achieved with a USB-to-serial cable, many options of which are available at a low cost on Amazon. You will need to identify the ID of the port you have connected to on your computer. On Windows, this can be found in Device Manager > Ports (COM & LPT). On Windows, the port ID will typically be of the form "COM1". This is the value you will enter into step 2. "Connection Port" above.
 
 ## Running a Protocol
 
