@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addonCore>
+  <label>EASYTMS</label>
+  <version>1.0</version>
+  <type>app</type>
+  <packagedBy>(R2022b)</packagedBy>
+  <identifier>4066d2d1-14f2-47bb-8437-c978afb08220</identifier>
+  <icons>
+    <icon tag="0">resources/icon_48.png</icon>
+    <icon tag="1">resources/icon_24.png</icon>
+    <icon tag="2">resources/icon_16.png</icon>
+  </icons>
+</addonCore>

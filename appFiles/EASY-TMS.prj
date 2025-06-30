@@ -1,0 +1,78 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2235116385" file="/Users/aaronmcinnes/Documents/EASYTMS /appFiles/EASY-TMS.prj" location="/Users/aaronmcinnes/Documents/EASYTMS /appFiles" name="EASY-TMS" target="target.mlapps" target-name="Package App">
+    <param.appname>EASY-TMS</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/aaronmcinnes/Documents/EASYTMS /release</param.output>
+    <param.guid>a2d4901c-b6e7-4c3d-af6e-a482a1adcaa5</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/TMS_StartUpPage.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/EditScreen.mlapp</file>
+      <file>${PROJECT_ROOT}/End.png</file>
+      <file>${PROJECT_ROOT}/ExperimentalAutomator.mlapp</file>
+      <file>${PROJECT_ROOT}/MotorConnection.mlapp</file>
+      <file>${PROJECT_ROOT}/PID_Page.mlapp</file>
+      <file>${PROJECT_ROOT}/Pause.png</file>
+      <file>${PROJECT_ROOT}/Play Button.png</file>
+      <file>${PROJECT_ROOT}/ProtocolRunScreen.mlapp</file>
+      <file>${PROJECT_ROOT}/RandomizeTMS.m</file>
+      <file>${PROJECT_ROOT}/RunorEdit.mlapp</file>
+      <file>${PROJECT_ROOT}/SetStimulatorIntensity.mlapp</file>
+      <file>${PROJECT_ROOT}/TMSStimulatorConnection.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>/Users/aaronmcinnes/Documents/EASYTMS /MAGIC-master</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/aaronmcinnes/Documents/EASYTMS " name="release" optional="false">/Users/aaronmcinnes/Documents/EASYTMS /release</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2023b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>15.5</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
